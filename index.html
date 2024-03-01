@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Users Management</title>
+</head>
+<body>
+    <h1>Users Management</h1>
+    <form action="/create" method="post">
+        <input type="text" name="name" placeholder="Name">
+        <input type="number" name="id" placeholder="ID">
+        <input type="number" name="points" placeholder="Points">
+        <button type="submit">Create User</button>
+    </form>
+    <form action="/search" method="get">
+        <input type="text" name="name" placeholder="Search by Name">
+        <button type="submit">Search User</button>
+    </form>
+    <form action="/delete" method="post">
+        <input type="number" name="id" placeholder="ID to Delete">
+        <button type="submit">Delete User</button>
+    </form>
+    <form action="/update" method="post">
+        <input type="number" name="id" placeholder="ID to Update">
+        <input type="text" name="name" placeholder="New Name">
+        <input type="number" name="points" placeholder="New Points">
+        <button type="submit">Update User</button>
+    </form>
+</body>
+</html>
