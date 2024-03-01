@@ -1,7 +1,7 @@
 """
-Arya Das
-CMSC 447
-HW 2
+Name: Arya Das
+Course: CMSC 447
+Assignment: HW 2
 """
 
 """from flask import Flask
